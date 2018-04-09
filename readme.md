@@ -1,3 +1,22 @@
+** Attention : il s'agit d'une version à usage local afin que les mails puissent être envoyés vers une boîte Google **
+
+** L'adresse muhammadyadallee.fr n'est plus utile : elle empêche l'envoi de mails vers cette boîte (pare-feu ?) **
+
+## Ceci est une application d'authentification basique depuis Laravel 5.6
+
+Cette application, qui utilise les templates blade fournis, dernière propose les services suivants
+
+*   L'inscription d'un utilisateur
+*   La connexion d'un utilisateur
+
+Toute inscription se résulte par l'envoi d'un mail à l'adresse email renseignée depuis l'inscription. Afin de sécuriser l'inscription, un _token_ est fourni dans le lien de confirmation.  
+Il est également possible d'authentifier l'utilisateur depuis son compte Facebook à l'aide de **_Socialite_**.
+
+Après authentification, l'utilisateur a la liberté de modifier ses informations qu'il aura renseignées : _nom, prénom, mot de passe, adresse, etc._ S'il modifie des données sensibles comme son **mot de passe** ou son **adresse mail**, il devra passer par une **étape supplémentaire**, qui est respectivement :
+
+*   La saisie de _l'ancien_ mot de passe
+*   La réception d'un mail de confirmation sur _la nouvelle_ adresse mail
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
