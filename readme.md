@@ -11,7 +11,7 @@ du projet** soit en **laravel_lastMailTest** ou en **AuthentificationLaravel** :
 
 ## N'oubliez pas de renseigner vos identifiants dans .env pour le service mail
 
-## Ceci est une application d'authentification basique depuis Laravel 5.6
+### Ceci est une application d'authentification basique depuis Laravel 5.6
 
 Cette application, qui utilise les templates blade fournis, dernière propose les services suivants
 
