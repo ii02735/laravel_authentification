@@ -1,6 +1,5 @@
-** Attention : il s'agit d'une version à usage local afin que les mails puissent être envoyés vers une boîte Google **
-
-** L'adresse muhammadyadallee.fr n'est plus utile : elle empêche l'envoi de mails vers cette boîte (pare-feu ?) **
+**Attention : il s'agit d'une version à usage local afin que les mails puissent être envoyés vers une boîte Google.
+L'adresse muhammadyadallee.fr n'est plus utile : elle semble empêcher l'envoi de mails vers cette boîte (pare-feu de 1and1 ?)**
 
 ## Ceci est une application d'authentification basique depuis Laravel 5.6
 
