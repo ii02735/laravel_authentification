@@ -1,6 +1,14 @@
 **Attention : il s'agit d'une version à usage local afin que les mails puissent être envoyés vers une boîte Google.
 L'adresse muhammadyadallee.fr n'est plus utile : elle semble empêcher l'envoi de mails vers cette boîte (pare-feu de 1and1 ?)**
 
+### IMPORTANT !
+
+Pour le service de connexion Facebook afin que le chemin puisse concorder à une URI OAuth, vous devrez **renommer le dossier
+du projet** soit en **laravel_lastMailTest** ou en **AuthentificationLaravel** :
+
+*   localhost/laravel_lastMailTest/public
+*   localhost/AuthentificationLaravel/public
+
 ## Ceci est une application d'authentification basique depuis Laravel 5.6
 
 Cette application, qui utilise les templates blade fournis, dernière propose les services suivants
