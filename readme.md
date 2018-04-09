@@ -6,7 +6,7 @@ L'adresse muhammadyadallee.fr n'est plus utile : elle semble empêcher l'envoi d
 Pour le service de connexion Facebook afin que le chemin puisse concorder à une URI OAuth, vous devrez **renommer le dossier
 du projet** soit en **laravel_lastMailTest** ou en **AuthentificationLaravel** :
 
-*   localhost/laravel_lastMailTest/public
+*   localhost/laravel_lastMailTest/public **(voir dans .env)**
 *   localhost/AuthentificationLaravel/public
 
 ## Ceci est une application d'authentification basique depuis Laravel 5.6
